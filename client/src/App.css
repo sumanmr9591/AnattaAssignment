@@ -1,0 +1,162 @@
+#fREEUSSHIP {
+  z-index: 4;
+  width: 215px;
+  height: 12px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+#rectangle {
+  z-index: 5;
+  width: 100% ;
+  height: 35px;
+  background: #000000;
+  text-align: -webkit-center;
+}
+#rectangle2{
+   z-index: 4;
+  width: 100%;
+  height: 70px;
+  position: relative;
+}
+#amberCrome{
+    left: 5%;
+    top: 35%;
+    position: absolute;
+}
+.rectangle2Content{
+  padding-left: 30px;
+}
+#rings{
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-52%, -50%);
+}
+#mEN {
+  z-index: 5;
+  width: 32px;
+  height: 12px;
+  font-family: "GothamHTF-Bold";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: 2px;
+}
+
+#wOMEN {
+  z-index: 5;
+  width: 60px;
+  height: 12px;
+  font-family: "GothamHTF-Bold";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: 2px;
+}
+#cart{
+  margin-left: 25px;
+}
+#aBOUT {
+  z-index: 5;
+  width: 54px;
+  height: 12px;
+  font-family: "GothamHTF-Bold";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: 2px;
+  text-align: right;
+}
+#oval {
+  z-index: 5;
+  border: solid 4px #ffcf60;
+  border-radius: 50%;
+}
+
+#ovalCopy {
+  z-index: 5;
+  border: solid 4px #7dc242;
+  margin-left: -20%;
+  border-radius: 50%;
+}
+footer{
+  width: 100%;
+  background-color: #000000;
+}
+
+.footerInput{
+  background-color: #000000;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+}
+.footerText{
+  color: #ffffff;
+  font-family: "GothamHTF-Book";
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 2px;
+  margin-top:20px;
+  padding: 30px;
+}
+.footerList li{
+  margin: 3px 0px 5px 5px;
+  list-style: none;
+}
+#joinButton{
+  background-color: #000000;
+  color:#ffffff;
+  border: 1px solid #ffffff;
+}
+
+@media screen and (max-width: 412px){
+ 
+  #wOMEN, #aBOUT, #mEN{
+    display: none;
+  }
+  #oval, #ovalCopy{
+    width: 35px;
+  height: 35px;
+  }
+  .cartContent{
+    position: absolute;
+    left: 72%;
+  }
+  #amberCrome{
+    display: block;
+  }
+  .iconContainer{
+  line-height: 35px;
+}
+.footerDiv{
+  width: 50% !important;
+}
+.footerText{
+  font-size: 10px;
+}
+}
+@media screen and (min-width: 413px){
+  #wOMEN, #aBOUT, #mEN{
+    display: block;
+  }
+  .footerText{
+  font-size: 12px;
+}
+   #oval, #ovalCopy{
+    width: 45px;
+  height: 45px;
+  }
+  .footerDiv{
+  width: 100% !important;
+}
+   #amberCrome{
+    display: none;
+  }
+  .iconContainer{
+  line-height: 70px;
+}
+}
